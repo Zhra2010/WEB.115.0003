@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-image: linear-gradient(#00dffc,rgb(0, 255, 183) );
+    color:#404da5;
+    padding: 20px;
+    text-align: center;
+    font-family: "Special Elite", sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    margin-left: -40%;
+    color: #404da5;
+    background-image: url("./background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* text-align: center; */
+}
+
+section#userInfo {
+    background-color: rgba(245, 234, 39, 0.5);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+}
+
+footer {
+    background-color:#39a0a6;
+    color: #404da5;
+    font-family: "Special Elite", sans-serif;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+   
+}
+
+input {
+    background-color: rgb(237, 198, 121);
+    color: #404da5;
+    border: 1px solid brown;
+    padding: 4px 8px;
+}
+
+#submit {
+    background-color: #404da5;
+    color: rgb(237, 198, 121);
+    padding: 10px 15px;
+    cursor: pointer;
+}
